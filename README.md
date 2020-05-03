@@ -10,3 +10,7 @@ Initial Commit.  I have created the github repository for the project, and then 
 ### 2020.03.26_2140
  
 Completed initial setup of 'server.js' file, and began setting up Schema in 'schema_workout.js' file.  I then corrected initial progress timestamp in 'readme.md' file.
+
+### 2020.03.26_2210
+ 
+For 'schema_workout.js' file, I completed schema for workout and added model for workout to export.
