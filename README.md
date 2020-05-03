@@ -18,3 +18,7 @@ For 'schema_workout.js' file, I completed schema for workout and added model for
 ### 2020.03.26_2215
  
 For 'routes_html.js' file, I completed adding html routes.
+
+### 2020.03.26_2230
+ 
+For 'routes_api.js' file, I added dependencies and began to add CRUD functions.

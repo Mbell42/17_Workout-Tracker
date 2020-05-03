@@ -18,5 +18,5 @@ router.get("/stats", () => {
 });
 
 // EXPORTS
-// module.exports = router;
+module.exports = router;
 
