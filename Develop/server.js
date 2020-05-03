@@ -18,12 +18,18 @@ app.use(express.json());
 
 
 // CONNECT TO MONGO DB W/MONGOOSE
-const mongoose.connect();
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
+    useNewUrlParser: true,
+    useFindAndModify: false
+});
+
 
 // ROUTES
+app.use(require("./routes/routes_api"));
+app.use(require("./routes/routes_html"));
 
 
 // START SERVER
 applicationCache.addEventListener(PORT, () => {
-
+    console.log(`App is running on port ${PORT}!`);
 });
