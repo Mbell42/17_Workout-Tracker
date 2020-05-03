@@ -17,16 +17,37 @@ const workoutSchema = new Schema(
                     type: String,
                     trim: true,
                     required: "What is the name of new Workout?"
+                },
+                type: {
+                    type: String,
+                    trim: true,
+                    required: "What is the type of mew Workout?"
+                },
+                weight: {
+                    type: Number
+                },
+                sets: {
+                    type: Number
+                },
+                reps: {
+                    type: Number
+                },
+                duration: {
+                    type: Number,
+                    required: "What was duration of Workout?"
+                },
+                distance: {
+                    type: Number
                 }
             }
         ]
+    },
+    {
+        toJSON: {
+            virtuals: true
+        }
     }
-)
-
-
-
-// WORKOUT MODEL/COLLECTION
-
+);
 
 
 // MODELS
