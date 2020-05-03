@@ -1,2 +1,6 @@
 # 17_Workout-Tracker
 For this assignment, I will create a workout tracker  that will allow me to create, view, and track daily workouts. I will create a Mongo database with a Mongoose schema &amp; model, and will handle routes using Express.
+
+## Progress
+
+2020.05.02_1850 - Initial Commit.  I have created the github repository for the project, and then cloned it to my local repo.  I then imported front-end starting point provided.  I then added the following directories__'models', 'routes'.  I then added the following '.js' files__'server', 'routes_api', 'routes_html', 'schema_workout', and 'model_workout'.  I then ran 'npm install' in 'develop' directory and created 'package-lock.json'.   Finally, I added initial comments to each '.js' file to plan out sections of code.
