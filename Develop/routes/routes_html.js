@@ -9,11 +9,11 @@ router.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "../public/index.html"));
 });
     // route to exercise page
-router.get("/exercise", () => {
+router.get("/exercise", (req, res) => {
     res.sendFile(path.join(__dirname, "../public/exercise.html"));
 });
     // route to statistics page
-router.get("/stats", () => {
+router.get("/stats", (req, res) => {
     res.sendFile(path.join(__dirname, "../public/stats.html"));
 });
 

@@ -22,3 +22,7 @@ For 'routes_html.js' file, I completed adding html routes.
 ### 2020.03.26_2230
  
 For 'routes_api.js' file, I added dependencies and began to add CRUD functions.
+
+### 2020.03.26_2315
+ 
+For 'routes_api.js' file, I completed CRUD functions.  I then began testing server locally and making adjustments when I encountered issues.  I then finished testing locally, and attempted to access mlabs again.  I was still unable to access mlabs or get an email response from mlabs.  Other than that, I believe the homework is complete.
