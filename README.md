@@ -14,3 +14,7 @@ Completed initial setup of 'server.js' file, and began setting up Schema in 'sch
 ### 2020.03.26_2210
  
 For 'schema_workout.js' file, I completed schema for workout and added model for workout to export.
+
+### 2020.03.26_2215
+ 
+For 'routes_html.js' file, I completed adding html routes.
