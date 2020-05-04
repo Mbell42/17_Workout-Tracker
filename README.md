@@ -30,3 +30,7 @@ For 'routes_api.js' file, I completed CRUD functions.  I then began testing serv
 ### 2020.05.04_1040
  
 For 'workout.js' file, I attempted to fix the duration function, and then commented it out after no solution was found yet.  I then began testing server locally and making adjustments when I encountered issues.  I then created a new Mlabs account for syncing with Heroku, and corrected the month/day on the previous few timestamps.
+
+### 2020.05.04_1100
+ 
+I created a Heroku app, connected it to my github project repo, and then enabled automatic deployments.
