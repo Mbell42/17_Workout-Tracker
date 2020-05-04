@@ -50,11 +50,11 @@ const workoutSchema = new Schema(
 );
 
 // TOTAL DURATION CALCULATION
-workoutSchema.virtual("totalDuration").get(() => {
-    return this.exercises.reduce((total, activity) => {
-        return total + activity.duration;
-    }, 0);
-});
+// workoutSchema.virtual("totalDuration").get(() => {
+//     return this.exercises.duration.reduce((total, activity) => {
+//         return total + activity.duration;
+//     }, 0);
+// });
 
 
 // MODELS
