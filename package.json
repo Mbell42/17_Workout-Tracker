@@ -11,7 +11,7 @@
     "seed": "node seeders/seed.js"
   },
   "engines": {
-    "node": "10.16.0"
+    "node": "12.13.1"
   },
   "author": "",
   "license": "ISC",
