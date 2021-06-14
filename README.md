@@ -1,4 +1,4 @@
-# 17_Workout-Tracker
+# UCSD-CodeBootCamp-17_Workout-Tracker
 
 ## Description
 
